@@ -25,13 +25,11 @@ body
             #video 
                 border-radius: 10px
                 width: 1140px
-                // &::-webkit-media-controls 
-                //     display: none !important
             .wrapper
-                position: relative
+                position: absolute
                 width: 1140px
                 height: 640px
-                top: -645px
+                top: 50px
                 display: flex
                 flex-flow: column nowrap
                 .upper-wrapper
@@ -64,7 +62,7 @@ body
                                 color: white
                                 text-decoration: none
                             #follow
-                                width: 90px
+                                width: 91px
                                 height: 30px
                                 background: transparent
                                 background-image: url(./img/followbutton.png)
@@ -146,7 +144,7 @@ body
                                     color: #929292
                                     font-family: Helvetica
                                     font-size: 12px
-                                .video-time-passed, .video-time-last
+                                .video-time-passed, .video-time-duration
                                     display: flex
                                     
                                 #progress-bar
@@ -271,4 +269,4 @@ body
                                             background: url(img/fullscreen.png)
                                             background-size: cover
                                             background-repeat: no-repeat
-@import './media-queries/media-queries.sass'
+                                            

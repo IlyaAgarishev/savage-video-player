@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Video from './Components/Video';
-import video from './video/video.mp4'
-import poster from './img/poster2.png'
+import video from './video/video.mp4';
+import poster from './img/poster.png';
 
 class VideoPlayer extends React.Component {
-    render(){
-        return(
-            <div>
-                <Video src={video} poster={poster}/>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <Video src={video} poster={poster} />
+      </div>
+    );
+  }
 }
-ReactDOM.render( <VideoPlayer/> , document.getElementsByClassName('sector-1')[0]);
+ReactDOM.render(<VideoPlayer />, document.getElementsByClassName('sector-1')[0]);
