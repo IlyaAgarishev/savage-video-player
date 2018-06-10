@@ -1,0 +1,273 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(./fonts/Helvetica-Neue-LT-Std-45-Light.ttf); }
+
+button {
+  border: none;
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; }
+  body .web-site {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1366px; }
+    body .web-site .sector-1 {
+      margin-top: 50px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 640px; }
+      body .web-site .sector-1 #video {
+        border-radius: 10px;
+        width: 1140px; }
+      body .web-site .sector-1 .wrapper {
+        position: relative;
+        width: 1140px;
+        height: 640px;
+        top: -645px;
+        display: flex;
+        flex-flow: column nowrap; }
+        body .web-site .sector-1 .wrapper .upper-wrapper {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          padding: 35px 48px 0px 22px; }
+          body .web-site .sector-1 .wrapper .upper-wrapper .account-area {
+            width: 224px;
+            height: 65px;
+            display: flex; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .account-area .account-image {
+              width: 65px;
+              border-radius: 100px;
+              background-size: cover;
+              background-repeat: no-repeat; }
+              body .web-site .sector-1 .wrapper .upper-wrapper .account-area .account-image:hover {
+                transition: all .5s ease;
+                box-shadow: 0 0 0px 2px white; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .account-area .account-attributes {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              padding-left: 10px; }
+              body .web-site .sector-1 .wrapper .upper-wrapper .account-area .account-attributes .account-name {
+                font-family: Helvetica;
+                font-size: 14px;
+                color: white;
+                text-decoration: none; }
+              body .web-site .sector-1 .wrapper .upper-wrapper .account-area .account-attributes #follow {
+                width: 90px;
+                height: 30px;
+                background: transparent;
+                background-image: url(./img/followbutton.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer; }
+          body .web-site .sector-1 .wrapper .upper-wrapper .social-media {
+            width: 52px;
+            height: 230px;
+            display: inline-flex;
+            flex-direction: column; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .social-media .icon {
+              height: 52px;
+              margin-bottom: 10px;
+              border-radius: 100px; }
+              body .web-site .sector-1 .wrapper .upper-wrapper .social-media .icon:hover {
+                transition: all .5s ease;
+                box-shadow: 0 0 0px 2px white; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .social-media .facebook {
+              background: url(img/facebook.png);
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .social-media .twitter {
+              background: url(img/twitter.png);
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .social-media .chain {
+              background: url(img/chain.png);
+              background-size: cover;
+              background-repeat: no-repeat; }
+            body .web-site .sector-1 .wrapper .upper-wrapper .social-media .opensource {
+              background: url(img/opensource.png);
+              background-size: cover;
+              background-repeat: no-repeat; }
+        body .web-site .sector-1 .wrapper .middle-wrapper {
+          width: 100%;
+          height: 50px;
+          text-align: center;
+          display: flex;
+          justify-content: center; }
+          body .web-site .sector-1 .wrapper .middle-wrapper #video-name {
+            position: absolute;
+            font-family: Helvetica;
+            font-size: 38px;
+            color: white; }
+        body .web-site .sector-1 .wrapper .lower-wrapper {
+          width: 100%;
+          height: 46%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          padding-bottom: 35px; }
+          body .web-site .sector-1 .wrapper .lower-wrapper .video-controls {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 555px;
+            height: 120px;
+            background: #282F36;
+            border-radius: 10px; }
+            body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area {
+              display: flex;
+              flex-direction: column;
+              width: 505px;
+              height: 80px; }
+              body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area {
+                width: 100%;
+                height: 40px; }
+              body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area {
+                display: flex;
+                flex-direction: column; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area .video-time, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area .progress-bar-area {
+                  width: 100%;
+                  height: 20px; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area .video-time {
+                  display: flex;
+                  justify-content: space-between;
+                  color: #929292;
+                  font-family: Helvetica;
+                  font-size: 12px; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area .video-time-passed, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area .video-time-last {
+                  display: flex; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area #progress-bar {
+                  -webkit-appearance: none;
+                  width: 100%;
+                  height: 5px;
+                  background: #484D53;
+                  outline: none;
+                  border-radius: 10px;
+                  cursor: pointer; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area #progress-bar::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    width: 10px;
+                    height: 10px;
+                    opacity: 0;
+                    background: dodgerblue; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area #progress-bar-fake {
+                  width: 100%;
+                  height: 5px;
+                  background: red;
+                  position: relative;
+                  border-radius: 10px;
+                  left: 2px;
+                  background: transparent; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .upper-area #progress-bar-fake #progress {
+                    position: relative;
+                    top: -7px;
+                    width: 0%;
+                    height: 5px;
+                    background: #A3A6A9;
+                    border-radius: 10px;
+                    pointer-events: none;
+                    transition: all .2s ease; }
+              body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area {
+                display: flex;
+                justify-content: space-between; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  width: 130px;
+                  height: 100%; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .mute-button-area, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #mute, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #noMute {
+                    width: 21px;
+                    height: 20px;
+                    transition: all .2s ease; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .mute-button-area #mute, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #mute #mute, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #noMute #mute {
+                      background: url(img/mute.png);
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                      cursor: pointer; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .mute-button-area #noMute, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #mute #noMute, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #noMute #noMute {
+                      background: url(img/nomute.png);
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                      cursor: pointer; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #volume-bar {
+                    -webkit-appearance: none;
+                    width: 110px;
+                    height: 5px;
+                    background: #484D53;
+                    border-radius: 10px;
+                    outline: none;
+                    cursor: pointer; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #volume-bar::-webkit-slider-thumb {
+                      -webkit-appearance: none;
+                      position: relative;
+                      width: 12px;
+                      height: 12px;
+                      background: white;
+                      border-radius: 20px;
+                      z-index: 1; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #volume-bar-fake {
+                    position: absolute;
+                    width: 102px;
+                    height: 5px;
+                    background: red;
+                    left: 52px;
+                    top: 55px;
+                    border-radius: 10px;
+                    outline: none;
+                    background: transparent; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #volume-bar-fake #volume {
+                      position: relative;
+                      top: 22px;
+                      right: 1px;
+                      height: 5px;
+                      background: #A3A6A9;
+                      border-radius: 10px;
+                      pointer-events: none; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .left-button-area, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .right-button-area, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #left, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #right {
+                    width: 16px;
+                    height: 16px;
+                    cursor: pointer; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .left-button-area #left, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .right-button-area #left, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #left #left, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #right #left {
+                      background: url(img/left.png);
+                      background-size: cover;
+                      background-repeat: no-repeat; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .left-button-area #right, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .right-button-area #right, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #left #right, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #right #right {
+                      background: url(img/right.png);
+                      background-size: cover;
+                      background-repeat: no-repeat; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .play-button-area, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #play, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #pause {
+                    width: 14px;
+                    height: 17px;
+                    cursor: pointer; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .play-button-area #play, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #play #play, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #pause #play {
+                      background: url(img/play.png);
+                      background-size: cover;
+                      background-repeat: no-repeat; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area .play-button-area #pause, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #play #pause, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .tap-area #pause #pause {
+                      background: url(img/stop.png);
+                      background-size: cover;
+                      background-repeat: no-repeat; }
+                body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .third {
+                  justify-content: flex-end; }
+                  body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .third .fullscreen-button-area, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .third #fullscreen {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer; }
+                    body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .third .fullscreen-button-area #fullscreen, body .web-site .sector-1 .wrapper .lower-wrapper .video-controls .controls-area .lower-area .third #fullscreen #fullscreen {
+                      background: url(img/fullscreen.png);
+                      background-size: cover;
+                      background-repeat: no-repeat; }
